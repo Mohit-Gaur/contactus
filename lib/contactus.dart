@@ -203,6 +203,7 @@ class ContactUs extends StatelessWidget {
                     websiteText ?? 'Website',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch(website),
@@ -250,6 +251,7 @@ class ContactUs extends StatelessWidget {
                   emailText ?? 'Email ID',
                   style: TextStyle(
                     color: textColor,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 onTap: () => launch('mailto:' + email),
@@ -273,6 +275,7 @@ class ContactUs extends StatelessWidget {
                     'Twitter',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch('https://twitter.com/' + twitterHandle),
@@ -297,6 +300,7 @@ class ContactUs extends StatelessWidget {
                     'Facebook',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch('https://www.facebook.com/' + facebookHandle),
@@ -321,6 +325,7 @@ class ContactUs extends StatelessWidget {
                     'Instagram',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch('https://instagram.com/' + instagram),
@@ -345,6 +350,7 @@ class ContactUs extends StatelessWidget {
                     'Github',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch('https://github.com/' + githubUserName),
@@ -369,6 +375,7 @@ class ContactUs extends StatelessWidget {
                     'Linkedin',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => launch(linkedinURL),
