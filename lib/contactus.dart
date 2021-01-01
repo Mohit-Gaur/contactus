@@ -227,6 +227,7 @@ class ContactUs extends StatelessWidget {
                     phoneNumberText ?? 'Phone',
                     style: TextStyle(
                       color: textColor,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   onTap: () => showAlert(context),
