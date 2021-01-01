@@ -169,7 +169,7 @@ class ContactUs extends StatelessWidget {
                   color: taglineColor,
                   fontSize: 20.0,
                   letterSpacing: 2.0,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.normal,
                 ),
               ),
             ),
