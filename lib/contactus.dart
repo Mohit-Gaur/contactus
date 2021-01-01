@@ -156,7 +156,7 @@ class ContactUs extends StatelessWidget {
               companyName,
               style: TextStyle(
                 fontFamily: 'Pacifico',
-                fontSize: companyFontSize ?? 40.0,
+                fontSize: companyFontSize ?? 30.0,
                 color: companyColor,
                 fontWeight: FontWeight.bold,
               ),
@@ -224,7 +224,7 @@ class ContactUs extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Typicons.phone),
                   title: Text(
-                    phoneNumberText ?? 'Phone Number',
+                    phoneNumberText ?? 'Phone',
                     style: TextStyle(
                       color: textColor,
                     ),
